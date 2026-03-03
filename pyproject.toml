@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gas-studentt"
+version = "0.1.0"
+authors = [
+  { name="Francesco Benincasa", email="benincasafrancesco999@gmail.com" }
+]
+description = "Robust estimation of time-varying covariance matrices using a Cholesky-GAS framework with Student-t innovations."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "numpy>=1.20.0",
+    "scipy>=1.7.0",
+    "numba>=0.55.0",
+    "matplotlib>=3.4.0",
+    "pandas>=1.3.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/B3nny02/gas-studentt"
+"Bug Tracker" = "https://github.com/B3nny02/gas-studentt/issues"
+
+[tool.setuptools.packages.find]
+include = ["gas_studentt", "gas_studentt.*"]
