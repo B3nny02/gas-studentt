@@ -129,7 +129,7 @@ $$s_t = \nabla_t / \sqrt{\mathcal{I}_t}$$
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/gas-studentt.git
+git clone https://github.com/B3nny02/gas-studentt.git
 cd gas-studentt
 pip install -r requirements.txt
 pip install -e .
