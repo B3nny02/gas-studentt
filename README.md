@@ -279,8 +279,8 @@ gas-studentt/
         ├──dgp.py
         ├──dgp_MC.py
         └── real_data.py
-├── requirements.txt
-└── setup.py
+└── requirements.txt
+
 ```
 
 ### Core Components
